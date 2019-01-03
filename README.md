@@ -1,0 +1,2 @@
+# LambdaExpressionFromJava8
+Java8で始めるラムダ式の写経です

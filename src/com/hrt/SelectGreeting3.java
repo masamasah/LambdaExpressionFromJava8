@@ -35,7 +35,7 @@ public class SelectGreeting3 {
 
 
         if (5 <= myTime && myTime <= 10) {
-            afternoon.run();
+            morning.run();
         } else if (11 <= myTime && myTime <= 22) {
             afternoon.run();
         } else if (17 <= myTime && myTime <= 22) {

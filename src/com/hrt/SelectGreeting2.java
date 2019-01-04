@@ -23,7 +23,7 @@ public class SelectGreeting2 {
         SelectGreeting2 greet = new SelectGreeting2();
 
         if (5 <= myTime && myTime <= 10) {
-            greet.afternoon();
+            greet.morning();
         } else if (11 <= myTime && myTime <= 22) {
             greet.afternoon();
         } else if (17 <= myTime && myTime <= 22) {

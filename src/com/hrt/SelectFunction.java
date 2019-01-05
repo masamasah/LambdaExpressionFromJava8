@@ -7,6 +7,11 @@ public class SelectFunction {
         public void draw(int n1, int n2);
     }
 
+    @FunctionalInterface
+    interface MyBird {
+        public boolean doseItSing(String voice);
+    }
+
     public static void main(String[] args) {
 
         Runnable r0 = () -> System.out.println("有効な関数名を指定してください");
@@ -25,6 +30,8 @@ public class SelectFunction {
 
         MyShape mytri = (a, b) -> System.out.println("底辺が" + b + "インチで、等辺が" + a + "インチの二等辺三角形です");
 
+        MyBird chicken = (voice) -> voice.equals("コケコッコー");
+
         if (args.length <= 0) {
             r0.run();
         } else {
@@ -38,6 +45,9 @@ public class SelectFunction {
                 case "myrec":
                     myrec.draw(1, 2);
                     mytri.draw(3, 4);
+                    break;
+                case "chicken":
+                    System.out.println(chicken.doseItSing("コケコッコー"));
                     break;
                 default:
                     r0.run();

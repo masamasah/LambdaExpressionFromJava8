@@ -1,7 +1,9 @@
 package com.hrt;
 
 public class SelectFunction {
-    interface MyShape{
+
+    @FunctionalInterface
+    interface MyShape {
         public void draw(int n1, int n2);
     }
 
@@ -13,13 +15,15 @@ public class SelectFunction {
         Runnable r2 = () -> {
             String name = "ゲスト";
 
-            if(args.length >= 2){
+            if (args.length >= 2) {
                 name = args[1];
             }
-            System.out.println("関数r2へようこそ、"+name+"さん");
+            System.out.println("関数r2へようこそ、" + name + "さん");
         };
 
-        MyShape myrec = (w,h) -> System.out.println("幅は"+w+"cmで、高さは"+h+"cmの長方形です");
+        MyShape myrec = (w, h) -> System.out.println("幅は" + w + "cmで、高さは" + h + "cmの長方形です");
+
+        MyShape mytri = (a, b) -> System.out.println("底辺が" + b + "インチで、等辺が" + a + "インチの二等辺三角形です");
 
         if (args.length <= 0) {
             r0.run();
@@ -32,7 +36,8 @@ public class SelectFunction {
                     r2.run();
                     break;
                 case "myrec":
-                    myrec.draw(1,2);
+                    myrec.draw(1, 2);
+                    mytri.draw(3, 4);
                     break;
                 default:
                     r0.run();

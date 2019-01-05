@@ -1,6 +1,9 @@
 package com.hrt;
 
 public class SelectFunction {
+    interface MyShape{
+        public void draw(int n1, int n2);
+    }
 
     public static void main(String[] args) {
 
@@ -16,6 +19,8 @@ public class SelectFunction {
             System.out.println("関数r2へようこそ、"+name+"さん");
         };
 
+        MyShape myrec = (w,h) -> System.out.println("幅は"+w+"cmで、高さは"+h+"cmの長方形です");
+
         if (args.length <= 0) {
             r0.run();
         } else {
@@ -25,6 +30,9 @@ public class SelectFunction {
                     break;
                 case "r2":
                     r2.run();
+                    break;
+                case "myrec":
+                    myrec.draw(1,2);
                     break;
                 default:
                     r0.run();

@@ -27,11 +27,19 @@ public class Function1 {
                     System.out.println(triple.apply(intg));
                     break;
                 case "bf1":
-                default:
                     intg = 2;
 
                     BiFunction<Integer, Integer, Integer> add = (a, b) -> (a + b);
                     System.out.println(intg + "と" + "5の和は" + add.apply(intg, 5));
+                case "bf2":
+                    intg = 3;
+
+                    BiFunction<Integer, String, String> sevenfold = (a, dscr) -> (a + dscr + a * 7);
+
+                    System.out.println(sevenfold.apply(intg, "の7倍は"));
+
+                default:
+
 
             }
 

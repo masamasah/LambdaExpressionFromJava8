@@ -9,13 +9,24 @@ public class Function1 {
         if (args.length > 0) {
             switch (args[0]) {
                 case "f1":
-                default:
                     intg = 5;
                     Function<Integer, Integer> twiceLambda = (a) -> (a * 2);
                     System.out.println(intg + "の2倍はLambdaで描いても" + twiceLambda.apply(intg));
+                case "f2":
+                default:
+                    intg = 7;
+
+                    Function<Integer, String> triple = new Function<Integer, String>() {
+                        @Override
+                        public String apply(Integer integer) {
+                            return integer + "の3倍は" + integer * 3;
+                        }
+                    };
+
+                    System.out.println(triple.apply(intg));
+
             }
 
-            // Todo impliment
         } else {
             Function<Integer, Integer> twice = new Function<Integer, Integer>() {
                 @Override

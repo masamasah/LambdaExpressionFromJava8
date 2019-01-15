@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c962f4ae-88c9-4177-8efb-ac331c1163c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFXtwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Function1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,26 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13622" />
+          <entry key="java" value="13906" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13622" />
+          <entry key="JAVA" value="13906" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="23" />
+          <entry key="java" value="24" />
           <entry key="properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="24" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
         </counts>
@@ -55,19 +55,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hrt/com/hrt_2/HistoryPersonCompareProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hrt/com/hrt_2/HistoryPersonSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,15 +136,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFXtwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="368">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1981#1982#0" expanded="true" />
                 <element signature="e#2009#2010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Function1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/com/hrt/SwingTwo.java" />
         <option value="$PROJECT_DIR$/src/JavaFXone.java" />
         <option value="$PROJECT_DIR$/src/JavaFXtwo.java" />
+        <option value="$PROJECT_DIR$/src/Function1.java" />
       </list>
     </option>
   </component>
@@ -264,7 +265,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547347623032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547551468075" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -286,9 +287,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaFXtwo">
+  <component name="RunManager" selected="Application.Function1">
     <configuration name="AnotherShapeDrawerImple" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.hrt.AnotherShapeDrawerImpl" />
+      <module name="LambdaExpressionFromJava8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Function1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Function1" />
       <module name="LambdaExpressionFromJava8" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -444,6 +452,7 @@
       <item itemvalue="Application.SwingTwo" />
       <item itemvalue="Application.JavaFXone" />
       <item itemvalue="Application.JavaFXtwo" />
+      <item itemvalue="Application.Function1" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
@@ -724,12 +733,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaFXtwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="368">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1981#1982#0" expanded="true" />
             <element signature="e#2009#2010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Function1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,6 @@
 
 import java.util.function.BinaryOperator;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.BiFunction;
 
@@ -48,6 +49,11 @@ public class Function1 {
                     System.out.println("2項演算子を使っても" + intg + "+7は" + simpleadd.apply(intg, 7));
 
                     break;
+                case "csm":
+
+                    Consumer<String> door = (name) -> System.out.println("お入りなさい" + name + "さん");
+
+                    door.accept("アリス");
                 default:
 
 

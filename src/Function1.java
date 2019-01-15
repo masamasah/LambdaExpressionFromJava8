@@ -7,6 +7,14 @@ public class Function1 {
 
         Integer intg = new Integer(3);
         if (args.length > 0) {
+            switch (args[0]) {
+                case "f1":
+                default:
+                    intg = 5;
+                    Function<Integer, Integer> twiceLambda = (a) -> (a * 2);
+                    System.out.println(intg + "の2倍はLambdaで描いても" + twiceLambda.apply(intg));
+            }
+
             // Todo impliment
         } else {
             Function<Integer, Integer> twice = new Function<Integer, Integer>() {

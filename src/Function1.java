@@ -32,18 +32,22 @@ public class Function1 {
 
                     BiFunction<Integer, Integer, Integer> add = (a, b) -> (a + b);
                     System.out.println(intg + "と" + "5の和は" + add.apply(intg, 5));
+
+                    break;
                 case "bf2":
                     intg = 3;
 
                     BiFunction<Integer, String, String> sevenfold = (a, dscr) -> (a + dscr + a * 7);
 
                     System.out.println(sevenfold.apply(intg, "の7倍は"));
-
+                    break;
                 case "bn":
                     intg = 6;
                     BinaryOperator<Integer> simpleadd = (a, b) -> (a + b);
 
-                    System.out.println("2項演算子を使っても"+intg+"+7は"+simpleadd.apply(intg, 7));
+                    System.out.println("2項演算子を使っても" + intg + "+7は" + simpleadd.apply(intg, 7));
+
+                    break;
                 default:
 
 

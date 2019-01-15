@@ -13,6 +13,7 @@ public class Function1 {
                     intg = 5;
                     Function<Integer, Integer> twiceLambda = (a) -> (a * 2);
                     System.out.println(intg + "の2倍はLambdaで描いても" + twiceLambda.apply(intg));
+                    break;
                 case "f2":
                     intg = 7;
 
@@ -24,13 +25,13 @@ public class Function1 {
                     };
 
                     System.out.println(triple.apply(intg));
+                    break;
                 case "bf1":
                 default:
                     intg = 2;
 
                     BiFunction<Integer, Integer, Integer> add = (a, b) -> (a + b);
                     System.out.println(intg + "と" + "5の和は" + add.apply(intg, 5));
-
 
             }
 

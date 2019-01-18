@@ -12,9 +12,9 @@ public class HistoryPersonSearch {
             // TODO: implement
         } else {
             Predicate<HistoryPerson> okehazama = (person) -> person.getBornYear() < 1560;
-            for(HistoryPerson p: people){
-                if(okehazama.test(p)){
-                    System.out.println(p.getName()+"は"+(1560-p.getBornYear())+"でした");
+            for (HistoryPerson p : people) {
+                if (okehazama.test(p)) {
+                    System.out.println(p.getName() + "は" + (1560 - p.getBornYear()) + "でした");
                 }
             }
         }

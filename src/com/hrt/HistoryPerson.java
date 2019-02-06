@@ -139,7 +139,7 @@ public class HistoryPerson {
         people.add(new HistoryPerson()
                 .createName("北条氏康", "ほうじょううじやす")
                 .createLife(1515, 1571)
-                .createCastle("小田原城", 35.150377, 129.091239));
+                .createCastle("小田原城", 35.150377, 139.091239));
 
         people.add(new HistoryPerson()
                 .createName("毛利元就", "もうりもとなり")

@@ -293,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549455452075" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549455626293" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -315,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.StreamTest">
     <configuration name="AnotherShapeDrawerImple" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.hrt.AnotherShapeDrawerImpl" />
       <module name="LambdaExpressionFromJava8" />
@@ -351,6 +351,13 @@
       <option name="MAIN_CLASS_NAME" value="com.hrt.hrt_2.HistoryPersonSort" />
       <module name="LambdaExpressionFromJava8" />
       <option name="PROGRAM_PARAMETERS" value="age" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistorySearchArgs" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hrt.hrt_2.HistorySearchArgs" />
+      <module name="LambdaExpressionFromJava8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,6 +464,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hrt.StreamTest" />
+      <module name="LambdaExpressionFromJava8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwingOne" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.hrt.SwingOne" />
       <module name="LambdaExpressionFromJava8" />
@@ -466,13 +480,6 @@
     </configuration>
     <configuration name="SwingTwo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.hrt.SwingTwo" />
-      <module name="LambdaExpressionFromJava8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.hrt.hrt_2.HistorySearchArgs" />
       <module name="LambdaExpressionFromJava8" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -498,7 +505,8 @@
       <item itemvalue="Application.JavaFXtwo" />
       <item itemvalue="Application.Function1" />
       <item itemvalue="Application.HistoryPersonSearch" />
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.HistorySearchArgs" />
+      <item itemvalue="Application.StreamTest" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>

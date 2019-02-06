@@ -1,4 +1,4 @@
-package com.hrt.com.hrt_2;
+package com.hrt.hrt_2;
 
 import com.hrt.HistoryPerson;
 

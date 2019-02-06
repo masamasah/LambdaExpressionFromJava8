@@ -23,6 +23,7 @@ public class StreamTest {
                 default:
                     System.out.println("forEachを用いると");
                     people.forEach((p) -> System.out.println(p.getName()));
+                    break;
             }
         } else {
             for (HistoryPerson p : people) {

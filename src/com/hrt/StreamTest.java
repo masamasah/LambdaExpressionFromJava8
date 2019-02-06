@@ -10,7 +10,6 @@ public class StreamTest {
         if (args.length > 0) {
             switch (args[0]) {
                 case "veryold":
-                default:
                     System.out.println("とても古い書き方");
 
                     Iterator<HistoryPerson> it = people.iterator();
@@ -20,6 +19,10 @@ public class StreamTest {
                         System.out.println(p.getName());
                     }
                     break;
+                case "foreach":
+                default:
+                    System.out.println("forEachを用いると");
+                    people.forEach((p) -> System.out.println(p.getName()));
             }
         } else {
             for (HistoryPerson p : people) {

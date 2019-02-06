@@ -20,10 +20,20 @@ public class StreamTest {
                     }
                     break;
                 case "foreach":
-                default:
                     System.out.println("forEachを用いると");
                     people.forEach((p) -> System.out.println(p.getName()));
                     break;
+                case "isborn":
+                    System.out.println("1540年に生まれていた人は");
+                    people.stream().filter((p) -> p.getBornYear() < 1540).forEach((p) -> System.out.println(p.getName()));
+                    break;
+                case "active":
+                    System.out.println("1575年に健在だった人は");
+                    people.stream().filter((p) -> p.getBornYear() < 1575)
+                            .filter((p) -> p.getDeadYear() > 1575).forEach((p) -> System.out.println(p.getName()));
+                    break;
+                default:
+
             }
         } else {
             for (HistoryPerson p : people) {

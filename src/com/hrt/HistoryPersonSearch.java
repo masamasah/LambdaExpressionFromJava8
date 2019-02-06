@@ -9,7 +9,7 @@ public class HistoryPersonSearch {
     public static void main(String[] args) {
         List<HistoryPerson> people = HistoryPerson.listPeople();
 
-        if (args.length > 0) {z
+        if (args.length > 0) {
             int argYear = Integer.parseInt(args[0]);
 
             Predicate<HistoryPerson> isborn = (person) -> person.getBornYear() < argYear;

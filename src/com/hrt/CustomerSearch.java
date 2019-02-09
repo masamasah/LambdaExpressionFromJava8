@@ -2,6 +2,7 @@ package com.hrt;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
 public class CustomerSearch {
@@ -64,6 +65,16 @@ public class CustomerSearch {
                     int allpoints = customers.stream()
                             .mapToInt(c -> point.get(c.getSize())).sum();
                     System.out.println("発生したポイントの総計は" + allpoints);
+                    break;
+                case "average":
+
+                    OptionalDouble averageAge = customers.stream()
+                            .filter(c -> c.getGender() == Gender.MAN)
+                            .mapToInt(c -> c.getAge()).average();
+
+                    String outString = String.format("男性の平均年齢：%.1f歳", averageAge.getAsDouble());
+
+                    System.out.println(outString);
                     break;
             }
         } else {

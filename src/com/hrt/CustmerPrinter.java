@@ -11,4 +11,8 @@ public class CustmerPrinter {
 
         System.out.println(printbuffer.toString());
     }
+
+    public static void printNameAndAge(Customer c){
+        System.out.println("名前：" + c.getName() + ", 年齢：" + c.getAge());
+    }
 }

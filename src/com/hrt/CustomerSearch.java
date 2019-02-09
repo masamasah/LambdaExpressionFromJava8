@@ -1,5 +1,6 @@
 package com.hrt;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -51,8 +52,18 @@ public class CustomerSearch {
 
                         System.out.println(s.toString() + ":" + sizecount);
                     }
-
                     break;
+                case "sum":
+
+                    HashMap<Size, Integer> point = new HashMap<>();
+                    point.put(Size.SMALL, 1);
+                    point.put(Size.MIDDLE, 3);
+                    point.put(Size.LARGE, 5);
+                    point.put(Size.XLARGE, 10);
+
+                    int allpoints = customers.stream()
+                            .mapToInt(c -> point.get(c.getSize())).sum();
+                    System.out.println("発生したポイントの総計は" + allpoints);
             }
         } else {
             customers.forEach(CustmerPrinter::printCustomer);

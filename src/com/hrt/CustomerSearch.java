@@ -36,6 +36,23 @@ public class CustomerSearch {
                     men.stream().sorted((c1, c2) -> c1.getName().compareTo(c2.getName()))
                             .forEach((c) -> System.out.println(c.getName()));
                     break;
+                case "anymatch":
+                    if (customers.stream().anyMatch(c -> c.getAge() < 20)) {
+                        System.out.println("成人向け企画は中止");
+                    } else {
+                        System.out.println("問題なし");
+                    }
+                    break;
+                case "count":
+
+                    for (Size s : Size.values()) {
+                        long sizecount = customers.stream()
+                                .filter(c -> c.getSize() == s).count();
+
+                        System.out.println(s.toString() + ":" + sizecount);
+                    }
+
+                    break;
             }
         } else {
             customers.forEach(CustmerPrinter::printCustomer);

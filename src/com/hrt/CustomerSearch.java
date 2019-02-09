@@ -15,6 +15,10 @@ public class CustomerSearch {
                             .filter(c -> c.getAge() < 40)
                             .forEach(CustmerPrinter::printNameAndAge);
                     break;
+                case "sorted":
+                    customers.stream()
+                            .sorted((c1, c2) -> c1.getName().compareTo(c2.getName()))
+                            .forEach(c -> System.out.println(c.getName()));
             }
         } else {
             customers.forEach(CustmerPrinter::printCustomer);

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c962f4ae-88c9-4177-8efb-ac331c1163c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/hrt/CustmerPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hrt/CustmerPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hrt/CustomerSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hrt/CustomerSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,14 +29,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="19295" />
+          <entry key="java" value="19402" />
           <entry key="properties" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19295" />
+          <entry key="JAVA" value="19402" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
         </counts>
@@ -108,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hrt/CustomerSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -294,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549691711831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549691876854" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -327,7 +326,7 @@
     <configuration name="CustomerSearch" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.hrt.CustomerSearch" />
       <module name="LambdaExpressionFromJava8" />
-      <option name="PROGRAM_PARAMETERS" value="filter" />
+      <option name="PROGRAM_PARAMETERS" value="sorted" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -895,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hrt/CustomerSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
         </state>
       </provider>
     </entry>

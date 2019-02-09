@@ -64,6 +64,7 @@ public class CustomerSearch {
                     int allpoints = customers.stream()
                             .mapToInt(c -> point.get(c.getSize())).sum();
                     System.out.println("発生したポイントの総計は" + allpoints);
+                    break;
             }
         } else {
             customers.forEach(CustmerPrinter::printCustomer);
